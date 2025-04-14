@@ -13,3 +13,6 @@ dependencies {
             "com.codeborne:selenide:7.0.0"
     )
 }
+test {
+    useJUnitPlatform()
+}
